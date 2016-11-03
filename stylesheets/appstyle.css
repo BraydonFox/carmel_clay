@@ -1,0 +1,57 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+#header {
+	position: fixed;
+	color: #CCC;
+	height: 10%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1000;
+	text-align: center;
+	background-color: #833;
+}
+
+#map {
+	position: relative;
+	height: 84%;
+	width: 100%;
+	top: 10%;
+}
+
+#myLocationContainer {
+	top:0%;
+	left: 5px;
+	position: absolute;
+	z-index: 2000;
+}
+
+#myLocationContainer label {
+	vertical-align: bottom;
+	height: 30px;
+	position: relative;
+	display: inline-block;
+	line-height: 30px;
+}
+
+#blog-post {
+	width: 100%;
+	color: #000;
+	text-align: center;
+}
+
+#footer {
+	position: fixed;
+	color: #CCC;
+	height: 6%;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	background-color: #833;
+}
