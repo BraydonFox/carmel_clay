@@ -38,10 +38,11 @@ html, body {
 	line-height: 30px;
 }
 
-#blog-post {
+#locationPage {
+	position: relative;
+	height: 84%;
 	width: 100%;
-	color: #000;
-	text-align: center;
+	top: 10%;
 }
 
 #footer {
